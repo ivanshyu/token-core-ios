@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Sources/**/*.{h,m,swift}"
   s.swift_version = "4.0"
   s.dependency "CryptoSwift", "1.3.8"
-  s.dependency "BigInt", "3.0.0"
+  s.dependency "BigInt", "3.0.1"
   s.dependency "GRKOpenSSLFramework"
   s.dependency "CoreBitcoin"
   s.dependency "secp256k1.swift"
